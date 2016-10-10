@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/girl/index/index",
+    "pages/girl/detail/detail",
+    "pages/douban/in_theathers/in_theathers",
+    "pages/douban/coming_soon/coming_soon",
+    "pages/douban/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo1/demo1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#268dcd",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "color": "##666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/douban/in_theathers/in_theathers",
+        "iconPath": "image/ing.png",
+        "selectedIconPath": "image/ing-active.png",
+        "text": "精选"
+      },
+      {
+        "pagePath": "pages/douban/coming_soon/coming_soon",
+        "iconPath": "image/coming.png",
+        "selectedIconPath": "image/coming-active.png",
+        "text": "专辑"
+      }
+    ]
+  },
+  "debug": true
+}
