@@ -1,0 +1,3 @@
+<block wx:for="{{classify}}" wx:for-item="item">
+  <view>{{item.title}}</view>
+  </block>

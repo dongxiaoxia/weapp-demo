@@ -2,6 +2,7 @@
   "pages": [
     "pages/girl/index/index",
     "pages/girl/detail/detail",
+    "pages/girl/classify/classify",
     "pages/douban/in_theathers/in_theathers",
     "pages/douban/coming_soon/coming_soon",
     "pages/douban/detail/detail",
@@ -22,16 +23,16 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/douban/in_theathers/in_theathers",
+        "pagePath": "pages/girl/index/index",
         "iconPath": "image/ing.png",
         "selectedIconPath": "image/ing-active.png",
         "text": "精选"
       },
       {
-        "pagePath": "pages/douban/coming_soon/coming_soon",
+        "pagePath": "pages/girl/classify/classify",
         "iconPath": "image/coming.png",
         "selectedIconPath": "image/coming-active.png",
-        "text": "专辑"
+        "text": "分类"
       }
     ]
   },

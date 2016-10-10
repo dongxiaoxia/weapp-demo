@@ -30,5 +30,18 @@ module.exports = {
                 cb( data )
             })
         })
+    },
+
+    //图片分类
+    getClassify: function( url, cb ) {
+        var that = this
+         fetch(url).then( function( response ) {
+            response.json().then( function( data ) {
+                that.setData( {
+                    classify: data.tngou
+                })
+                cb( data )
+            })
+        })
     }
 }
